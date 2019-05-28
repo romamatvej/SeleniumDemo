@@ -51,6 +51,7 @@ public class SeleniumTestNG {
 	@Test(priority = 1)
 	public void GoogleLogOut() throws Exception {
 
+		// log out
 		driver.findElement(By.xpath("//*[@id=\"gb\"]/div[2]/div[3]/div/div[2]/div/a")).click();
 		driver.findElement(By.xpath("//*[@id=\"gb_71\"]")).click();
 
